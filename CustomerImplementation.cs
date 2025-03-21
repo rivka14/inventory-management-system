@@ -7,12 +7,6 @@ internal class CustomerImplementation : ICustomer
 {
     public int Creat(Customer item)
     {
-        //foreach (Customer? i in DataSource.customers)
-        //{
-        //    if (i.CustomerTz == item.CustomerTz)
-        //        throw new Exception("The coustomer is already exist");
-
-        //}
         bool CusId = DataSource.customers.Any(t => t.CustomerTz == item.CustomerTz);
         if (CusId)
             throw new Exception("The coustomer is already exist");

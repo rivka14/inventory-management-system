@@ -1,0 +1,13 @@
+06/01/2025 17:28:37	Dal.ProductImplementation.Creat:	insert product in id:3
+06/01/2025 17:28:37	Dal.ProductImplementation.Creat:	insert product in id:2
+06/01/2025 17:28:37	Dal.SaleImplementation.Creat:	insert Sale in id:0
+06/01/2025 17:28:37	Dal.SaleImplementation.Creat:	insert Sale in id:4
+06/01/2025 17:28:37	Dal.SaleImplementation.Creat:	insert Sale in id:5
+06/01/2025 17:28:37	Dal.SaleImplementation.Creat:	insert Sale in id:6
+06/01/2025 17:28:37	Dal.SaleImplementation.Creat:	insert Sale in id:7
+06/01/2025 17:28:37	Dal.CustomerImplementation.Creat:	insert customer in id:2745112
+06/01/2025 17:28:37	Dal.CustomerImplementation.Creat:	insert customer in id:123456
+06/01/2025 17:28:37	Dal.CustomerImplementation.Creat:	insert customer in id:789564
+06/01/2025 17:28:47	Dal.CustomerImplementation.Read:	read customer in id: 2
+06/01/2025 17:28:47	Dal.CustomerImplementation.Read:	not found  customer in this id: 2
+06/01/2025 17:28:55	Dal.CustomerImplementation.ReadAll:	read all customers

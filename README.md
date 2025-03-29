@@ -1,6 +1,6 @@
 # Management
 
- **Management** is a server-side C# project for managing store operations. The system handles:
+ **Management** is a server-side C# project built with **.NET**, designed for managing store operations. The system handles:
 
 -  **Orders & Sales** – Tracking and managing purchases.
 -  **Promotions & Discounts** – Creating and updating store promotions.

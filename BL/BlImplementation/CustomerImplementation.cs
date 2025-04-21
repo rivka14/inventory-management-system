@@ -18,10 +18,6 @@ namespace BlImplementation
                 return _dal.Customer.Creat(customerDO);
 
             }
-            //catch (DalException ex)
-            //{
-            //    throw new BOException("Error while creating customer.", ex);
-            //}
             catch (Exception ex)
             {
                 throw new Exception("jty");
@@ -39,7 +35,6 @@ namespace BlImplementation
             }
             catch (Exception ex)
             {
-                //throw new BOException("Error while reading customer.", ex);
                 throw new Exception("ex");
             }
         }
@@ -61,10 +56,6 @@ namespace BlImplementation
 
                 return customersBO;
             }
-            //catch (DalException ex)
-            //{
-            //    throw new BOException("Error while reading all customers.", ex);
-            //}
             catch (Exception ex)
             {
 
@@ -79,13 +70,8 @@ namespace BlImplementation
                 DO.Customer customerDO = customer.ConvertToDoCustomer();
                 _dal.Customer.Update(customerDO);
             }
-            //catch (DalException ex)
-            //{
-            //    throw new BOException("Error while updating customer.", ex);
-            //}
             catch (Exception ex)
             {
-                //throw new BOException("Error while reading customer.", ex);
                 throw new Exception("ex");
             }
         }
@@ -95,13 +81,8 @@ namespace BlImplementation
             {
                 _dal.Customer.Delete(id);
             }
-            //catch (DalException ex)
-            //{
-            //    throw new BOException("Error while deleting customer.", ex);
-            //}
             catch (Exception ex)
             {
-                //throw new BOException("Error while reading customer.", ex);
                 throw new Exception("ex");
             }
         }

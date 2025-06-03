@@ -1,4 +1,7 @@
-# Management
+# Inventory Management System
+A desktop application for managing a small retail store, built in C# using WinForms and structured according to the 3-layer architecture:
+Data Access Layer (DAL), Business Logic Layer (BL), and Presentation Layer (UI).
+Data is stored locally using XML files.
 
  **Management** is a server-side C# project built with **.NET**, designed for managing store operations.
 <br>

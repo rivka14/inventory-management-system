@@ -1,0 +1,58 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio files
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*.exe
+*.pdb
+*.dll
+*.lib
+*.dep
+*.manifest
+*.cache
+*.tmp
+*.temp
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!packages/build/
+*.nuget.props
+*.nuget.targets
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+
+# Log files
+*.log
+
+# Generated files
+*.deps.json
+*.runtimeconfig.json

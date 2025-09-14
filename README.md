@@ -96,13 +96,11 @@ inventory-management-system/
 │   ├── 📁 BlApi/                   # BL Interfaces
 │   │   ├── IBl.cs                  # Main BL interface
 │   │   ├── ICustomer.cs            # Customer operations
-│   │   ├── IOrder.cs               # Order management
 │   │   ├── IProduct.cs             # Product operations
 │   │   └── ISale.cs                # Sales operations
 │   ├── 📁 BO/                      # Business Objects
 │   │   ├── Customer.cs             # Customer entity
 │   │   ├── Product.cs              # Product entity
-│   │   ├── Order.cs                # Order entity
 │   │   ├── Sale.cs                 # Sale entity
 │   │   └── Enums.cs                # Domain enumerations
 │   └── 📁 BlImplementation/        # BL Implementations
@@ -110,7 +108,11 @@ inventory-management-system/
 │   ├── 📁 DalApi/                  # DAL Interfaces
 │   │   ├── IDal.cs                 # Main DAL interface
 │   │   ├── ICrud.cs                # Generic CRUD operations
-│   │   └── Factory.cs              # DAL factory
+│   │   ├── ICustomer.cs            # Customer data operations
+│   │   ├── IProduct.cs             # Product data operations
+│   │   ├── ISale.cs                # Sale data operations
+│   │   ├── Factory.cs              # DAL factory
+│   │   └── Config.cs               # Configuration handler
 │   └── 📁 DO/                      # Data Objects
 ├── 📁 DalList/                     # DAL Implementation (In-Memory Lists)
 ├── 📁 Tools/                       # Utilities & Logging
@@ -214,14 +216,18 @@ Enter ProductId, ProductName, CategoryProduct, Price, Amount
 
 **Creating a Sale**:
 ```
-Enter ProductId, AmountForSale, UniqueIdAuto, PriceForSale, IsForClab, StartDate, EndDate
+Enter ProdectId,AmountForSale, UniqueIdAuto,PriceForSale , IsForClab, LastTime, EndTime 
 > 1001
 > 10
 > 2001
 > 20
 > true
-> 1 9 2024    (Sept 1, 2024)
-> 30 9 2024   (Sept 30, 2024)
+> 1       (day)
+> 9       (month)
+> 2024    (year)
+> 30      (day)
+> 9       (month)
+> 2024    (year)
 ```
 
 ## 🧪 Testing

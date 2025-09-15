@@ -182,24 +182,19 @@ dotnet run --project DalTest
 
 ```
 Main Menu:
-├── 1. Product Management
-│   ├── Create new product
-│   ├── Read product details
-│   ├── List all products (with filtering)
-│   ├── Update product information
-│   └── Delete product
-├── 2. Customer Management
-│   ├── Create new customer
-│   ├── Read customer details  
-│   ├── List all customers
-│   ├── Update customer information
-│   └── Delete customer
-└── 3. Sales Management
-    ├── Create new sale/promotion
-    ├── Read sale details
-    ├── List all sales
-    ├── Update sale information
-    └── Delete sale
+For exit type 0
+For product type 1
+For customer type 2  
+For sale type 3
+
+Sub-Menu (for each entity):
+You are in {Product/Customer/Sale}
+For backing to main menu type 0
+For create new {entity} type 1
+For read 1 item from {entity} type 2
+For readAll from {entity} type 3
+For update {entity} type 4
+For delete {entity} type 5
 ```
 
 ### Example Operations
@@ -212,6 +207,15 @@ Enter ProductId, ProductName, CategoryProduct, Price, Amount
 > 0  (Plants category)
 > 25
 > 50
+```
+
+**Creating a Customer**:
+```  
+Enter CustomerTz ,CustomerName,CustomerAdress, CustomerPhone 
+> 123456789
+> John Doe
+> 123 Main St
+> 555-0123
 ```
 
 **Creating a Sale**:

@@ -24,7 +24,7 @@ The system follows a clean **3-layer architecture pattern** ensuring separation 
 │           (Console Test App)             │
 ├─────────────────────────────────────────┤
 │            Business Logic Layer         │
-│     (BL - Business Rules & Logic)       │
+│     (BL - Business Rules and Logic)     │
 ├─────────────────────────────────────────┤
 │          Data Access Layer              │
 │    (DAL - Configurable Storage)         │
